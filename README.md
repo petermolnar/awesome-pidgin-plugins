@@ -104,6 +104,12 @@ If that doesn't work, and you're on Linux, you can try recompile Pidgin without 
 ./configure --prefix=/usr --disable-perl --disable-nm --with-dynamic-prpls=jabber,irc --enable-gnutls=no
 ```
 
+### ICQ (as 2019 ICQ)
+
+https://github.com/EionRobb/icyque
+
+Because ICQ started to abandon the old protocol.
+
 
 
 ## Other useful plugins
