@@ -31,6 +31,15 @@ Use https://github.com/gkdr/lurch
 
 Use https://github.com/noonien-d/pidgin-xmpp-receipts
 
+### Slack
+https://github.com/dylex/slack-libpurple works nicely. To obtain a token, follow https://github.com/yuya373/emacs-slack#how-to-get-token
+
+### Signal
+
+https://github.com/hoehermann/libpurple-signald is built on top of https://gitlab.com/signald/signald/ - signald is needed in the background. So far everything worked, including New type groups, apart from anything SMS/MMS based; only in-Signal features/messages work.
+
+Note: start signald system-wide, but allow the plugin to show the QR code for linking, don't try to register the account in advance, by hand.
+
 ### WhatsApp
 
 https://github.com/hoehermann/purple-gowhatsapp is a new plugin that, unlike other Pidgin WhatsApp plugins, connects to the web interface of WhatsApp, so the possibility if immediately getting block is reduced.
